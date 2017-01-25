@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BEFD8B2E1E38B54D00214357"
-               BuildableName = "DelegationClosureRetainCycles"
-               BlueprintName = "DelegationClosureRetainCycles"
-               ReferencedContainer = "container:DelegationClosureRetainCycles.xcodeproj">
+               BlueprintIdentifier = "BEFD8B8B1E38FE7200214357"
+               BuildableName = "DelegatiogRetainCycles"
+               BlueprintName = "DelegatiogRetainCycles"
+               ReferencedContainer = "container:DelegatiogRetainCycles.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEFD8B2E1E38B54D00214357"
-            BuildableName = "DelegationClosureRetainCycles"
-            BlueprintName = "DelegationClosureRetainCycles"
-            ReferencedContainer = "container:DelegationClosureRetainCycles.xcodeproj">
+            BlueprintIdentifier = "BEFD8B8B1E38FE7200214357"
+            BuildableName = "DelegatiogRetainCycles"
+            BlueprintName = "DelegatiogRetainCycles"
+            ReferencedContainer = "container:DelegatiogRetainCycles.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEFD8B2E1E38B54D00214357"
-            BuildableName = "DelegationClosureRetainCycles"
-            BlueprintName = "DelegationClosureRetainCycles"
-            ReferencedContainer = "container:DelegationClosureRetainCycles.xcodeproj">
+            BlueprintIdentifier = "BEFD8B8B1E38FE7200214357"
+            BuildableName = "DelegatiogRetainCycles"
+            BlueprintName = "DelegatiogRetainCycles"
+            ReferencedContainer = "container:DelegatiogRetainCycles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BEFD8B2E1E38B54D00214357"
-            BuildableName = "DelegationClosureRetainCycles"
-            BlueprintName = "DelegationClosureRetainCycles"
-            ReferencedContainer = "container:DelegationClosureRetainCycles.xcodeproj">
+            BlueprintIdentifier = "BEFD8B8B1E38FE7200214357"
+            BuildableName = "DelegatiogRetainCycles"
+            BlueprintName = "DelegatiogRetainCycles"
+            ReferencedContainer = "container:DelegatiogRetainCycles.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -10,6 +10,6 @@ import Foundation
 
 var krakyPoo: Kraken? = Kraken()
 krakyPoo?.eatSomething()
-krakyPoo?.limbHasBeenLost()
+//krakyPoo?.limbHasBeenLost()
 krakyPoo?.initialiseClosure()
 krakyPoo = nil ///why does deinit not get called?!

@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DelegationClosureRetainCycles.xcscheme</key>
+		<key>DelegatiogRetainCycles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BEFD8B2E1E38B54D00214357</key>
+		<key>BEFD8B8B1E38FE7200214357</key>
 		<dict>
 			<key>primary</key>
 			<true/>

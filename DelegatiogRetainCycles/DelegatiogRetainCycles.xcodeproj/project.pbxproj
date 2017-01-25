@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEFD8B901E38FE7200214357 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD8B8F1E38FE7200214357 /* main.swift */; };
+		BEFD8B991E38FE8B00214357 /* Kraken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD8B961E38FE8B00214357 /* Kraken.swift */; };
+		BEFD8B9A1E38FE8B00214357 /* LossOfLimbDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD8B971E38FE8B00214357 /* LossOfLimbDelegate.swift */; };
+		BEFD8B9B1E38FE8B00214357 /* Tentacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD8B981E38FE8B00214357 /* Tentacle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		BEFD8B2D1E38B54D00214357 /* CopyFiles */ = {
+		BEFD8B8A1E38FE7200214357 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,15 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BEFD8B2F1E38B54D00214357 /* DelegationClosureRetainCycles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DelegationClosureRetainCycles; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEFD8B7D1E38BA1100214357 /* Kraken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kraken.swift; sourceTree = "<group>"; };
-		BEFD8B7E1E38BA1100214357 /* LossOfLimbDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LossOfLimbDelegate.swift; sourceTree = "<group>"; };
-		BEFD8B7F1E38BA1100214357 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		BEFD8B801E38BA1100214357 /* Tentacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tentacle.swift; sourceTree = "<group>"; };
+		BEFD8B8C1E38FE7200214357 /* DelegatiogRetainCycles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DelegatiogRetainCycles; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFD8B8F1E38FE7200214357 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BEFD8B961E38FE8B00214357 /* Kraken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kraken.swift; sourceTree = "<group>"; };
+		BEFD8B971E38FE8B00214357 /* LossOfLimbDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LossOfLimbDelegate.swift; sourceTree = "<group>"; };
+		BEFD8B981E38FE8B00214357 /* Tentacle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tentacle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEFD8B2C1E38B54D00214357 /* Frameworks */ = {
+		BEFD8B891E38FE7200214357 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,98 +44,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BEFD8B261E38B54D00214357 = {
+		BEFD8B831E38FE7200214357 = {
 			isa = PBXGroup;
 			children = (
-				BEFD8B7C1E38BA1100214357 /* DelegationClosureRetainCycles */,
-				BEFD8B301E38B54D00214357 /* Products */,
+				BEFD8B8E1E38FE7200214357 /* DelegatiogRetainCycles */,
+				BEFD8B8D1E38FE7200214357 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEFD8B301E38B54D00214357 /* Products */ = {
+		BEFD8B8D1E38FE7200214357 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEFD8B2F1E38B54D00214357 /* DelegationClosureRetainCycles */,
+				BEFD8B8C1E38FE7200214357 /* DelegatiogRetainCycles */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEFD8B7C1E38BA1100214357 /* DelegationClosureRetainCycles */ = {
+		BEFD8B8E1E38FE7200214357 /* DelegatiogRetainCycles */ = {
 			isa = PBXGroup;
 			children = (
-				BEFD8B7F1E38BA1100214357 /* main.swift */,
-				BEFD8B7E1E38BA1100214357 /* LossOfLimbDelegate.swift */,
-				BEFD8B7D1E38BA1100214357 /* Kraken.swift */,
-				BEFD8B801E38BA1100214357 /* Tentacle.swift */,
+				BEFD8B8F1E38FE7200214357 /* main.swift */,
+				BEFD8B961E38FE8B00214357 /* Kraken.swift */,
+				BEFD8B971E38FE8B00214357 /* LossOfLimbDelegate.swift */,
+				BEFD8B981E38FE8B00214357 /* Tentacle.swift */,
 			);
-			path = DelegationClosureRetainCycles;
+			path = DelegatiogRetainCycles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEFD8B2E1E38B54D00214357 /* DelegationClosureRetainCycles */ = {
+		BEFD8B8B1E38FE7200214357 /* DelegatiogRetainCycles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEFD8B361E38B54D00214357 /* Build configuration list for PBXNativeTarget "DelegationClosureRetainCycles" */;
+			buildConfigurationList = BEFD8B931E38FE7200214357 /* Build configuration list for PBXNativeTarget "DelegatiogRetainCycles" */;
 			buildPhases = (
-				BEFD8B2B1E38B54D00214357 /* Sources */,
-				BEFD8B2C1E38B54D00214357 /* Frameworks */,
-				BEFD8B2D1E38B54D00214357 /* CopyFiles */,
+				BEFD8B881E38FE7200214357 /* Sources */,
+				BEFD8B891E38FE7200214357 /* Frameworks */,
+				BEFD8B8A1E38FE7200214357 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DelegationClosureRetainCycles;
-			productName = Delegation;
-			productReference = BEFD8B2F1E38B54D00214357 /* DelegationClosureRetainCycles */;
+			name = DelegatiogRetainCycles;
+			productName = DelegatiogRetainCycles;
+			productReference = BEFD8B8C1E38FE7200214357 /* DelegatiogRetainCycles */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEFD8B271E38B54D00214357 /* Project object */ = {
+		BEFD8B841E38FE7200214357 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Ben Smith";
 				TargetAttributes = {
-					BEFD8B2E1E38B54D00214357 = {
+					BEFD8B8B1E38FE7200214357 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BEFD8B2A1E38B54D00214357 /* Build configuration list for PBXProject "DelegationClosureRetainCycles" */;
+			buildConfigurationList = BEFD8B871E38FE7200214357 /* Build configuration list for PBXProject "DelegatiogRetainCycles" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BEFD8B261E38B54D00214357;
-			productRefGroup = BEFD8B301E38B54D00214357 /* Products */;
+			mainGroup = BEFD8B831E38FE7200214357;
+			productRefGroup = BEFD8B8D1E38FE7200214357 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEFD8B2E1E38B54D00214357 /* DelegationClosureRetainCycles */,
+				BEFD8B8B1E38FE7200214357 /* DelegatiogRetainCycles */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BEFD8B2B1E38B54D00214357 /* Sources */ = {
+		BEFD8B881E38FE7200214357 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFD8B901E38FE7200214357 /* main.swift in Sources */,
+				BEFD8B9B1E38FE8B00214357 /* Tentacle.swift in Sources */,
+				BEFD8B991E38FE8B00214357 /* Kraken.swift in Sources */,
+				BEFD8B9A1E38FE8B00214357 /* LossOfLimbDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BEFD8B341E38B54D00214357 /* Debug */ = {
+		BEFD8B911E38FE7200214357 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		BEFD8B351E38B54D00214357 /* Release */ = {
+		BEFD8B921E38FE7200214357 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +227,7 @@
 			};
 			name = Release;
 		};
-		BEFD8B371E38B54D00214357 /* Debug */ = {
+		BEFD8B941E38FE7200214357 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -224,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		BEFD8B381E38B54D00214357 /* Release */ = {
+		BEFD8B951E38FE7200214357 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -235,25 +246,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEFD8B2A1E38B54D00214357 /* Build configuration list for PBXProject "DelegationClosureRetainCycles" */ = {
+		BEFD8B871E38FE7200214357 /* Build configuration list for PBXProject "DelegatiogRetainCycles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFD8B341E38B54D00214357 /* Debug */,
-				BEFD8B351E38B54D00214357 /* Release */,
+				BEFD8B911E38FE7200214357 /* Debug */,
+				BEFD8B921E38FE7200214357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEFD8B361E38B54D00214357 /* Build configuration list for PBXNativeTarget "DelegationClosureRetainCycles" */ = {
+		BEFD8B931E38FE7200214357 /* Build configuration list for PBXNativeTarget "DelegatiogRetainCycles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFD8B371E38B54D00214357 /* Debug */,
-				BEFD8B381E38B54D00214357 /* Release */,
+				BEFD8B941E38FE7200214357 /* Debug */,
+				BEFD8B951E38FE7200214357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BEFD8B271E38B54D00214357 /* Project object */;
+	rootObject = BEFD8B841E38FE7200214357 /* Project object */;
 }

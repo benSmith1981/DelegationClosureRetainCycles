@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1BACA9180FB559E17F56BD9EE152EDFDE81ED3FF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E61D20031D01392802BFC9AD389D532163E0607" : 9223372036854775807,
+    "1BACA9180FB559E17F56BD9EE152EDFDE81ED3FF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C9D21221-F383-4B38-B44A-313F362B6C6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E61D20031D01392802BFC9AD389D532163E0607" : "",
+    "1BACA9180FB559E17F56BD9EE152EDFDE81ED3FF" : "DelegationClosureRetainCycles\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DelegatiogRetainCycles",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DelegatiogRetainCycles\/DelegatiogRetainCycles.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/benSmith1981\/DelegationClosureRetainCycles.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BACA9180FB559E17F56BD9EE152EDFDE81ED3FF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/benSmith1981\/PlaygroundsForCourse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E61D20031D01392802BFC9AD389D532163E0607"
+    }
+  ]
+}
