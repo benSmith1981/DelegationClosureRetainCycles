@@ -56,9 +56,9 @@
 		BEFD8B7C1E38BA1100214357 /* DelegationClosureRetainCycles */ = {
 			isa = PBXGroup;
 			children = (
-				BEFD8B7D1E38BA1100214357 /* Kraken.swift */,
-				BEFD8B7E1E38BA1100214357 /* LossOfLimbDelegate.swift */,
 				BEFD8B7F1E38BA1100214357 /* main.swift */,
+				BEFD8B7E1E38BA1100214357 /* LossOfLimbDelegate.swift */,
+				BEFD8B7D1E38BA1100214357 /* Kraken.swift */,
 				BEFD8B801E38BA1100214357 /* Tentacle.swift */,
 			);
 			path = DelegationClosureRetainCycles;

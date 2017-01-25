@@ -8,15 +8,13 @@
 
 import Foundation
 
-class Kraken: LossOfLimbDelegate {
+class Kraken { //implement delegate here
     var tentacle: Tentacle? = Tentacle()
-    
     var closureToEat: (() -> Void)!
-    
     var whatAmIDoing = "Hello"
     
     init() {
-        tentacle?.delegate = self
+        //set delegate here
     }
     
     func initialiseClosure()  {
@@ -25,10 +23,6 @@ class Kraken: LossOfLimbDelegate {
             self.whatAmIDoing = "Eating"
             self.eatSomething()
         }
-    }
-    
-    func limbHasBeenLost(){
-        print("Cry")
     }
     
     func eatSomething(){

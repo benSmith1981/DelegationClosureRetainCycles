@@ -8,10 +8,11 @@
 
 import Foundation
 class Tentacle {
-    var delegate: LossOfLimbDelegate?
     
+    //create delegate property to kraken here
+
     func cutOffTentacle() {
-        delegate?.limbHasBeenLost()
+        //call delegate here
     }
     
     func writheAround(){

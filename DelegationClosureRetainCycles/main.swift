@@ -11,5 +11,5 @@ import Foundation
 var krakyPoo: Kraken? = Kraken()
 krakyPoo?.eatSomething()
 krakyPoo?.limbHasBeenLost()
-
-krakyPoo = nil //cannot deinitialise as delegate is strong, so we have a retain cycle. Tentacle always hold onto the Kraken, so even if the Kraken wants to die it cannot because the tentacle is still alive!!
+krakyPoo?.initialiseClosure()
+krakyPoo = nil ///why does deinit not get called?!
